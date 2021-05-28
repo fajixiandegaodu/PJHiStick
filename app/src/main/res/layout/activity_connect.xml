@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="连接页面"/>
+    <TextView
+        android:id="@+id/connectInformation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="对应的值"/>
+
+    <Button
+        android:id="@+id/sendData"
+        android:layout_width="97dp"
+        android:layout_height="92dp"
+        android:text="点击发送数据" />
+    <Button
+        android:id="@+id/StopSendData"
+        android:layout_width="97dp"
+        android:layout_height="92dp"
+        android:text="点击停止发送数据" />
+</LinearLayout>

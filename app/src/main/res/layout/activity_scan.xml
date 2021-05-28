@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+   <!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/colorToothBlue"
+        android:textColor="@color/colorWhite"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:text="智能拐杖" />-->
+
+    <TextView
+        android:id="@+id/scan_status"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/border"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorToothBlue"
+        android:textSize="16dp"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/listView_scan"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+        <!--android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:divider="#C8C8C8"
+        android:dividerHeight="0.03dp"
+        android:layout_height="0dp"-->
+        />
+
+    <!--<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="20dp"
+        android:text="WzuIStick" />-->
+</LinearLayout>
